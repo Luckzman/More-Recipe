@@ -11,8 +11,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //test commit
     }
-    public void latest(){
-        int i =1;
-        //recent change
-    }
+
 }
