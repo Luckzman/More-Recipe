@@ -56,7 +56,80 @@
             </div>
         </div>
     </nav>
+    
+    <!--Implementing modal class when we use the sign-in button-->
+    <div class="modal fade" id="recipeSignInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Sign In </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body ">
+              <form>
+                <div class="form-group form-small">
+                  <label for="recipient-name" class="form-control-label">E-mail:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="password" class="form-control-label">Password:</label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn elegant-color" data-dismiss="modal">Close</button>
+                <button type="button" class="btn elegant-color"><a href="dashboard.html">Sign In</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!--Implementing modal class when we use the sign-up button-->
+      <div class="modal fade" id="recipeSignUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Sign In </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="form-control-label">Name:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-username" class="form-control-label">UserName:</label>
+                  <input type="text" class="form-control" id="recipient-username">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-email" class="form-control-label">E-mail:</label>
+                  <input type="text" class="form-control" id="recipient-email">
+                </div>
+                <div class="form-group">
+                  <label for="password" class="form-control-label">Password:</label>
+                  <input type="password" class="form-control" id="password">
+                </div>
+                <div class="form-group">
+                  <label for="repeat-password" class="form-control-label">Repeat-Password:</label>
+                  <input type="password" class="form-control" id="repeat-password">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn elegant-color" data-dismiss="modal">Close</button>
+              <button type="button" class="btn elegant-color"><a href="dashboard.html">Sign Up</a></button>
+            </div>
+          </div>
+        </div>
+      </div>  
   </header>
+
   <main class="mt-5">
       <!--Main container-->
       <div class="container">
@@ -112,83 +185,112 @@
   <!--Grid column-->
 </div>
 <!--Grid row-->
-</div>
-  </main>
+
+ 
 
 
-    <!--Implementing modal class when we use the sign-in button-->
-    <div class="modal fade" id="recipeSignInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Sign In </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body ">
-            <form>
-              <div class="form-group form-small">
-                <label for="recipient-name" class="form-control-label">E-mail:</label>
-                <input type="text" class="form-control" id="recipient-name">
-              </div>
-              <div class="form-group">
-                <label for="password" class="form-control-label">Password:</label>
-                <input type="password" class="form-control" id="password">
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn elegant-color" data-dismiss="modal">Close</button>
-              <button type="button" class="btn elegant-color"><a href="dashboard.html">Sign In</a></button>
-          </div>
+    <div class="row">
+        
+                        <!--Grid column-->
+      
+        <div class="col-lg-4 col-md-12 mb-5">
+        
+                <!--Card-->
+            <div class="card">
+        
+                <!--Card image-->
+                <div class="view overlay hm-white-slight">
+                    <img src="images/OFE NSALA.jpg" class="img-fluid" alt="">
+                    <a href="#">
+                        <div class="mask"></div>
+                    </a>
+                </div>
+        
+                <!--Card content-->
+                <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Ofe Nsala</h4>
+                    <!--Text-->
+                    <p class="card-text">Check out the sweet and delicious taste of Ofe Nsala Soup</p>
+                    <i class="material-icons float-left">thumb_up</i>
+                    <i class="material-icons float-right">thumb_down</i>
+        
+                </div>
+        
+            </div>
+                <!--/.Card-->
+        
+            </div>
+            <!--Grid column-->
+        
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-5">
+        
+                <!--Card-->
+                <div class="card">
+        
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="images/jollof-rice.jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+        
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">JOLLOF RICE</h4>
+                        <!--Text-->
+                        <p class="card-text">Check out the sweet taste of Nigeria's Jollof Rice which is sweet than any Jollof Rice in the world.</p>
+                         <i class="material-icons float-left">thumb_up</i>
+                        <i class="material-icons float-right">thumb_down</i>
+                    </div>
+        
+                </div>
+                <!--/.Card-->
+        
+            </div>
+            <!--Grid column-->
+        
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-5">
+        
+                <!--Card-->
+                <div class="card">
+        
+                    <!--Card image-->
+                    <div class="view overlay hm-white-slight">
+                        <img src="images/egusi-semo.jpg" class="img-fluid" alt="">
+                        <a href="#">
+                            <div class="mask"></div>
+                        </a>
+                    </div>
+        
+                    <!--Card content-->
+                    <div class="card-body">
+                        <!--Title-->
+                        <h4 class="card-title">SEMO & EGUSI SOUP</h4>
+                        <!--Text-->
+                        <p class="card-text">Experience the good taste of Egusi Soup and Semo.</p>
+                         <i class="material-icons float-left">thumb_up</i>
+                        <i class="material-icons float-right">thumb_down</i>
+                    </div>
+        
+                </div>
+                <!--/.Card-->
+        
+            </div>
+            <!--Grid column-->
         </div>
-      </div>
-    </div>
-
-    <!--Implementing modal class when we use the sign-up button-->
-    <div class="modal fade" id="recipeSignUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Sign In </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="recipient-name" class="form-control-label">Name:</label>
-                <input type="text" class="form-control" id="recipient-name">
-              </div>
-              <div class="form-group">
-                <label for="recipient-username" class="form-control-label">UserName:</label>
-                <input type="text" class="form-control" id="recipient-username">
-              </div>
-              <div class="form-group">
-                <label for="recipient-email" class="form-control-label">E-mail:</label>
-                <input type="text" class="form-control" id="recipient-email">
-              </div>
-              <div class="form-group">
-                <label for="password" class="form-control-label">Password:</label>
-                <input type="password" class="form-control" id="password">
-              </div>
-              <div class="form-group">
-                <label for="repeat-password" class="form-control-label">Repeat-Password:</label>
-                <input type="password" class="form-control" id="repeat-password">
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn elegant-color" data-dismiss="modal">Close</button>
-            <button type="button" class="btn elegant-color"><a href="dashboard.html">Sign Up</a></button>
-          </div>
         </div>
-      </div>
-    </div>
-
-    </header>
+        <!--Grid row-->
+        </div>
+                <!--Main container-->
+        
+        
+            </main>
+        
 
     
     <body>
