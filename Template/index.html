@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+        <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <title>More-Recipe</title>
+            <!-- Font Awesome -->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="MDBootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="MDBootstrap/css/mdb.min.css">
+            <link rel="stylesheet" href="main.css">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+            <!-- Navbar brand -->
+                <a class="playboyFont nav-brand" href="#">More-Recipe</a>
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catelog<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Featured</a>
+                        </li>
+                    </ul>
+                    <!-- Links -->
+
+                <!-- Search form -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <form class="form-inline mt-2 mt-md-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href data-target="#recipeSignInModal" data-toggle="modal">Sign-in</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <!--a class="nav-link" href="#">Sign out</a-->
+                            <a class="nav-link" data-toggle="modal" data-target="#recipeSignUpModal">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Implementing modal class when we use the sign-in button-->
+    <div class="modal fade" id="recipeSignInModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Sign In </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body ">
+            <form>
+              <div class="form-group form-small">
+                <label for="recipient-name" class="form-control-label">E-mail:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="password" class="form-control-label">Password:</label>
+                <input type="password" class="form-control" id="password">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn elegant-color" data-dismiss="modal">Close</button>
+              <button type="button" class="btn elegant-color"><a href="dashboard.html">Sign In</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Implementing modal class when we use the sign-up button-->
+    <div class="modal fade" id="recipeSignUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Sign In </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="form-control-label">Name:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="recipient-username" class="form-control-label">UserName:</label>
+                <input type="text" class="form-control" id="recipient-username">
+              </div>
+              <div class="form-group">
+                <label for="recipient-email" class="form-control-label">E-mail:</label>
+                <input type="text" class="form-control" id="recipient-email">
+              </div>
+              <div class="form-group">
+                <label for="password" class="form-control-label">Password:</label>
+                <input type="password" class="form-control" id="password">
+              </div>
+              <div class="form-group">
+                <label for="repeat-password" class="form-control-label">Repeat-Password:</label>
+                <input type="password" class="form-control" id="repeat-password">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn elegant-color" data-dismiss="modal">Close</button>
+            <button type="button" class="btn elegant-color"><a href="dashboard.html">Sign Up</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </header>
+
+    </head>
+    <body>
+
+        <script src="MDBootstrap/js/mdb.min.js"></script>
+        <script src="MDBootstrap/js/jquery-3.2.1.min.js"></script>
+        <script src="MDBootstrap/js/popper.min.js"></script>
+        <script src="MDBootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
