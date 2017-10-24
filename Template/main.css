@@ -1,0 +1,12 @@
+.center-text{
+    text-align: center;
+    margin: auto
+}
+.playboyFont{
+    font-family: Playball;
+    font-size: 30px;
+    color: whitesmoke;
+    line-height: 25px;
+}
+a.playboyFont.nav-brand:hover{
+    color:grey;
