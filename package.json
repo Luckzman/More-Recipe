@@ -1,0 +1,30 @@
+{
+  "name": "morerecipe",
+  "version": "1.0.0",
+  "description": "More Recipe Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luckzman/More-Recipe.git"
+  },
+  "keywords": [
+    "More",
+    "Recipe"
+  ],
+  "author": "Lucky Omokarho Oniovosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luckzman/More-Recipe/issues"
+  },
+  "homepage": "https://github.com/Luckzman/More-Recipe#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "eslint": "^4.9.0"
+  }
+}
